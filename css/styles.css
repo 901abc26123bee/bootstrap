@@ -68,3 +68,10 @@
 .nonsmoking{
     background-color: #22d34f;
 }
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
