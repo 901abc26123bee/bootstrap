@@ -60,3 +60,11 @@
     left: 0;
     min-height: 300px;
 }
+
+.smoking{
+    background-color: #cc1212;
+}
+
+.nonsmoking{
+    background-color: #22d34f;
+}
