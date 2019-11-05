@@ -304,88 +304,6 @@
         </div>
     </div>
 
-<!--
-        <div class="row row-content align-items-center justify-content-center">
-            <div class="col-10 col-lg-6">
-                <div class="card">
-                    <h5 class="card-header card text-white bg-warning mb-3">Reverse A Table</h5>
-                    <div class="card-body">
-                        <div class="form-group row">
-                            <label for="telnum" class="col-12 col-md-2 col-form-lable">Number of Guest</label>
-                            <div class="col-sm-10">
-                                <div class=" form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                <label class="form-check-label" for="inlineRadio1">1</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                <label class="form-check-label" for="inlineRadio2">2</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-                                <label class="form-check-label" for="inlineRadio1">3</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
-                                <label class="form-check-label" for="inlineRadio2">4</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
-                                <label class="form-check-label" for="inlineRadio1">5</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
-                                <label class="form-check-label" for="inlineRadio6">6</label>
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="telnum" class="col-12 col-md-2 col-form-lable">Section</label>
-                            <div class="col-sm-10">
-                                <button type="button" class="btn btn-success ">NonSmoking</button>
-                                <button type="button" class="btn btn-danger">Smoking</button> 
-                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-secondary active">
-                                        <input type="radio" class="nonSmoking" name="nonSmoking" id="nonSmoking" autocomplete="off" checked> NonSmoking
-                                    </label>
-                                    <label class="btn btn-secondary">
-                                        <input type="radio" class="smoking" name="smoking" id="smoking" autocomplete="off"> Smoking
-                                    </label>
-                                </div>
-                            </div>
-                        </div> 
-                        <form>                     
-                            <div class="form-group row">
-                                <label for="telnum" class="col-12 col-md-2 col-form-lable">Date and Time</label>
-                                <div class="col-md-5">
-                                    <input type="date" class="form-control" id="date" nwme="date"
-                                        placeholder="Ddte">
-                                </div>
-                                <div class="col-md-5">
-                                    <input type="time" class="form-control" id="time" nwme="time"
-                                        placeholder="Time">
-                                </div>
-                            </div>
-
-                            <div class="form-group row">
-                                <div class="offset-md-2 col-md-10">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                                        Cancel
-                                    </button>
-                                    <button type="submit" class="btn btn-primary">
-                                        Reserve
-                                    </button>
-                                </div>
-                            </div>
-                        </form> 
-                    </div>
-                </div>
-            </div>
-        </div>
-    -->
-
-
-
     <footer class="footer">
         <div class="container">
             <div class="row">             
@@ -437,23 +355,7 @@
             });
         </script>
 -->  
-        <script>
-            $(document).ready(function(){
-                $("#mycarousel").carousel( { interval: 2000 } );
-                    $("#carouselButton").click(function(){
-                    if ($("#carouselButton").children("span").hasClass('fa-pause')) {
-                        $("#mycarousel").carousel('pause');
-                        $("#carouselButton").children("span").removeClass('fa-pause');
-                        $("#carouselButton").children("span").addClass('fa-play');
-                    }
-                    else if ($("#carouselButton").children("span").hasClass('fa-play')){
-                        $("#mycarousel").carousel('cycle');
-                        $("#carouselButton").children("span").removeClass('fa-play');
-                        $("#carouselButton").children("span").addClass('fa-pause');                    
-                    }
-                });
-            });
-        </script>
+        <script>"js/scripts.js"</script>
 </body>
 
 </html>
